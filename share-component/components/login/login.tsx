@@ -6,12 +6,12 @@ const Login = () => {
             <div className={style.container}>
                 <div className={style.box}>
                     <div className={style.logo}>
-                        <img src="https://cdn.shopify.com/s/files/1/0569/6185/9665/files/logo_size_ef877e92-6cbf-4198-85b7-7fa0bf6cc89c_200x60@2x.png?v=1703761544.webp" alt="Elyscent Logo" />
+                        <img src="/al-abrar-logo.png" alt="Al Abrar Fragrances Logo" />
                     </div>
 
                     <div>
-                        <h2 className={style.signin}>Sign in</h2>
-                        <p className={style.description}>Sign in or create an account</p>
+                        <h2 className={style.signin}>Sign in to Al Abrar</h2>
+                        <p className={style.description}>Sign in or create an account to explore our fragrances</p>
                     </div>
 
                     <div className={style.signin_btn}>
