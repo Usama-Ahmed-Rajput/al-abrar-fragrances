@@ -1,5 +1,5 @@
 .wrapper {
-    width: 85%;
+  width: 100%;
 }
 
 .heading {
@@ -24,7 +24,7 @@
 }
 
 .perfume_item {
-  width: calc(25% - 5px);
+  width: 22%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@
 }
 
 .perfume_item img {
-    width: 85%;
+  width: 100%;
 }
 
 .deal_names {
@@ -107,7 +107,7 @@
 
 @media(max-width:480px) {
   .perfume_item {
-    width: 85%;
+    width: 100%;
     margin-left: 15px;
   }
 }

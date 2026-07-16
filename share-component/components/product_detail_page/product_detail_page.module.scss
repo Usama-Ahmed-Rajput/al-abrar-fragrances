@@ -256,7 +256,7 @@
         }
 
         .mn_image {
-    width: 85%;
+          width: 100%;
           max-height: 320px;
         }
 
@@ -285,7 +285,7 @@
         }
 
         .free_deliver_sec {
-    width: 85%;
+          width: 100%;
           font-size: 14px;
           padding: 12px;
         }
@@ -302,7 +302,7 @@
 
         .perfumes_options {
           select {
-    width: 85%;
+            width: 100%;
           }
         }
 
@@ -310,7 +310,7 @@
 
           .add_to_cart_btn,
           .buy_now_btn {
-    width: 85%;
+            width: 100%;
             font-size: 13px;
           }
         }
@@ -362,7 +362,7 @@
     }
 
     .ask_form {
-    width: 85%;
+      width: 100%;
     }
 
     .form_row {
@@ -375,7 +375,7 @@
     .form_group {
       display: flex;
       flex-direction: column;
-    width: 85%;
+      width: 100%;
 
       label {
         font-size: 13px;
