@@ -68,6 +68,9 @@ const Header = () => {
                 onClick={() => toggleCartDrawer(true)}
               >
                 <BsBag />
+                {items.length > 0 && (
+                  <span className={style.cart_badge}>{items.length}</span>
+                )}
               </div>
               <div className={style.mobile_search_icon}>
                 <CiSearch />
@@ -77,6 +80,9 @@ const Header = () => {
                 onClick={() => toggleCartDrawer(true)}
               >
                 <BsBag />
+                {items.length > 0 && (
+                  <span className={style.cart_badge}>{items.length}</span>
+                )}
               </div>
             </div>
           </div>
